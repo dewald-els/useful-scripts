@@ -1,0 +1,7 @@
+################################
+# When using GRUB              #
+################################
+This flag will prevent USB Bluetooth devices from powersaving. This is an issue on Ubuntu using the Asus BT500 as keyboards and devices become unresponsive.
+
+Add the following to the GRUB_CMDLINE_LINUX_DEFAULT flags
+btusb.enable_autosuspend=0
