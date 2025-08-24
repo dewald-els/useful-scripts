@@ -3,8 +3,8 @@ eval "$(oh-my-posh init bash --config $(brew --prefix oh-my-posh)/themes/tokyoni
 # Java Home
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 # Deno
-. "/home/dewaldels/.deno/env"
-source /home/dewaldels/.local/share/bash-completion/completions/deno.bash
+. "/home/<USERNAME_HERE>/.deno/env"
+source /home/<USERNAME_HERE>/.local/share/bash-completion/completions/deno.bash
 # Android
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
