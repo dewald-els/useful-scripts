@@ -37,4 +37,4 @@ initrd  /initramfs-linux.img
 options root=UUID=your-root-uuid rw amdgpu.dcdebugmask=0x8000 # <-- Add debug mask here 
 ```
 
-Finall, Reboot
+Finally, Reboot
