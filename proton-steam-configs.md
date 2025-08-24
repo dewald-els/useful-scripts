@@ -13,4 +13,6 @@ Open Steam, find the game you want:
 
 Set Properties -> Command for Games to use Locale (Norway) and gamemode on UBUNTU
 
+```shell
 HOST_LC_ALL=nb_NO.UTF-8 gamemoderun %command%
+```
