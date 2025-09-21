@@ -21,6 +21,14 @@ Set Properties -> Command for Games to use Locale (Norway) and gamemode on Ubunt
 HOST_LC_ALL=nb_NO.UTF-8 gamemoderun %command%
 ```
 
+## Controller Issues
+
+If Steam can see you controller but games can not, it might be a permission issue. Set correct permission for your inputs
+
+```shell
+sudo chmod 666 /dev/uinput
+```
+
 ## BashRC 
 
 Update `~/.bashrc` with the following two lines:
