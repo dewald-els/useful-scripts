@@ -38,3 +38,25 @@ options root=UUID=your-root-uuid rw amdgpu.dcdebugmask=0x8000 # <-- Add debug ma
 ```
 
 Finally, Reboot
+
+## Using Limine bootloader (e.g., Omarchy/Arch Linux)
+
+Edit the limine configuration
+ 
+```shell
+sudo nano /etc/default/limine
+```
+
+Add the boot param
+
+```shell
+amdgpu.dcdebugmask=0x8000 to the kernel cmdline:
+```
+
+### Regenerate boot entries
+
+```shell
+sudo limine-install
+```
+
+Restart system
