@@ -43,6 +43,13 @@ Finally, Reboot
 
 Using Linux Mint caused a crash. This could have been due to the PSR (Panel Self Refresh Rate)
 
+### Here is some sample logs from the crash:
+
+```shell
+Feb 19 07:18:37 ThinkPadT14S-Mint kernel: amdgpu 0000:c3:00.0: [drm] *ERROR* Error queueing DMUB command: status=2
+Feb 19 07:18:37 ThinkPadT14S-Mint kernel: amdgpu 0000:c3:00.0: [drm] *ERROR* dc_dmub_srv_log_diagnostic_data: DMCUB error - collecting diagnostic data
+```
+
 ### Check for DMUB Error
 
 Command to check for errors since last boot:
