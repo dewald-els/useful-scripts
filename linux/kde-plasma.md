@@ -14,3 +14,5 @@ That will remove the drop shadow.
 
 <img width="1093" height="833" alt="image" src="https://github.com/user-attachments/assets/6219e7ff-8799-4933-8cf3-f2beade500da" />
 
+
+> It does not seem to work with all windows... 
