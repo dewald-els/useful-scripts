@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Figma
+Comment=Figma Design Tool
+Exec=brave-browser --app=https://www.figma.com/
+Icon=figma
+Categories=Graphics;Design;
+Terminal=false
+StartupNotify=true
+StartupWMClass=brave-www.figma.com__-Default
