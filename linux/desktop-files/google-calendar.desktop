@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar
+GenericName=Google Calendar
+Comment=Open Google Calendar
+Exec=google-chrome --app=https://calendar.google.com/calendar/u/0/r
+Terminal=false
+Type=Application
+Icon=/home/dewaldels/.local/share/icons/google-calendar.png
+StartupNotify=true
+StartupWMClass=chrome-calendar.google.com__calendar_u_0_r-Default
+Categories=Network;Calendar;
